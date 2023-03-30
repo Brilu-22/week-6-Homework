@@ -1,0 +1,95 @@
+form{
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    border-radius: 25px;
+}
+
+.form-input{
+    width: 90%;
+    height: 40px;
+    margin-top: 10px;
+    padding-left: 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(77, 74, 74);
+    color: white;
+}
+
+.heading{
+    text-align: center;
+    font-family: 'BIZ UDPGothic', sans-serif;
+    color: white;
+}
+
+.logo{
+    height: 55px;
+    width: 55px;
+    background-image: url(../assets/icons8-spotify-48.png);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: -50px;
+    margin-left: 120px;
+}
+
+.info ul{
+   list-style: none;
+}
+
+.info li{
+    float: left;
+    padding-left: 30px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 45px;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    padding-bottom: 20px;
+}
+
+.info li a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 20px;
+   
+}
+
+
+.info li a::after{
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: green;
+    margin: auto;
+    display: block;  
+}
+
+
+
+
+.info li a:hover::after{
+    width: 100%;
+    transition: 0.3s linear;
+}
+
+.select, button{
+    width: 95% !important;
+    height: 40px;
+    margin-top: 10px;
+    padding-left: 15px;
+    border-radius: 20px;
+    border: none;
+    background-color:green;
+    color: white;
+}
+
+.forgot{
+    text-align: center;
+}
